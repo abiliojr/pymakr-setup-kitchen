@@ -2,3 +2,9 @@ Debian:
 1. Clone the pymakr source code in a directory called Pymakr (mind the uppercase)
 2. Run dpkg-buildupdate -b
 
+RedHat:
+1. Build the debian package
+2. Translate it using rpmrebuild -pe filename.deb
+3. Remove references to / and /usr/bin
+4. Add dependencies: sip, qscintilla-python, python
+
