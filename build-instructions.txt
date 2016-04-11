@@ -1,0 +1,4 @@
+Debian:
+1. Clone the pymakr source code in a directory called Pymakr (mind the uppercase)
+2. Run dpkg-buildupdate -b
+
